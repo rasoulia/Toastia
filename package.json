@@ -1,14 +1,26 @@
 {
   "name": "toastia",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple project for show toast in your website.",
+  "keywords": [
+    "toast",
+    "toastia",
+    "Toastia"
+  ],
+  "homepage": "https://github.com/rasoulia/Toastia",
+  "bugs": {
+    "url": "https://github.com/rasoulia/Toastia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasoulia/Toastia.git"
+  },
+  "license": "ISC",
+  "author": "rasoulia",
   "main": "toastia.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
