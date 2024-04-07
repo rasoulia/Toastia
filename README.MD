@@ -8,7 +8,12 @@ it's simple.
 <link href="/path/to/toastia.css" rel="stylesheet">
 <script src="/path/to/toastia.min.js"></script>
 ```
-2. initialize it
+2. add this to your html
+```
+<ul class="toastia"></ul>
+```
+
+3. initialize it
 ```
 const toastia = new Toastia();
 
@@ -16,7 +21,7 @@ const toastia = new Toastia();
 
 const toastia = new Toastia(options);
 ```
-3. call toast.
+4. call toast.
 ```
 toastia.toast("this is a test","info");
 
@@ -30,9 +35,9 @@ toastia.toastInfo("<span>this is a test</span>");
 
 // toastInfo, toastSuccess, toastWarning, toastError
 ```
-4. if you use toast first parameter is toast text and second is type of toast that is info, success, warning, error.
+5. if you use toast first parameter is toast text and second is type of toast that is info, success, warning, error.
    
-5. done.
+6. done.
 
 ### Options.
 
@@ -43,6 +48,7 @@ toastia.toastInfo("<span>this is a test</span>");
 | position  |      string      |  "topRight"  |                               where should i show toast? one of key from positionClass.                                |
 | childItem |      string      |     "li"     |                                       what type of child create for toast item?                                        |
 | placement |      string      | "afterbegin" | how it show toast? from new to old? or old to new? only accept afterbegin for new to old and beforeend for old to new. |
+|   toast   |       node       |      ul      |                                            which node is container of toast                                            |
 
 #### Position class
 this object is for add all type of class for each postion.
